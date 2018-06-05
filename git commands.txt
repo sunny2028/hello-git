@@ -1,0 +1,22 @@
+Following are some of the commands used in git bash to keep track of the changes made in the file:-
+1. $git init                 (it creates a .git folder which monitors all the files in that folder)
+
+2. $git add <filename>       (this command will help git to track the content of this particular file)
+ 
+3. $git status               (this cmd shows all the files that git is "tracking" and also those which are not being tracked by git)
+                             (if there is any change made to the files being monitored, it will show in the status)
+
+4. $git commit -m  "version 1"( "commit" means to create a checkpoint( or a version), but this may not work first time)
+
+// before using this command we have to introduce ourself to git
+
+5.$git config:-(to introduce ourself to git)
+(i) $git config --global user.name "tarun tej bawa"
+(ii)$git config --global user.email "tejasbawa9@gmail.com"
+
+//...now the commit cmd should be working 
+
+6. $git remote add origin "repository address"
+ ( this helps to link the local repsitory to the remote repository(like on github))
+
+7. $git push -u origin master    (this command will upload your files to the remote repository)
